@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: resume-rag-avatar
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn local_qa_server_works_somewhat_4:app
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FLASK_ENV
+        value: production
+

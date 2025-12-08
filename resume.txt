@@ -1,0 +1,19 @@
+- The name is Vibhuti Dabas. Email is vibhuti171@gmail.com
+- Pursued MSc in Advanced Computer Science with a specialization in Artificial Intelligence from the University of Manchester, United Kingdom. 
+- Completed a Bachelor of Technology in Information Technology from Indira Gandhi Delhi Technical University for Women with a CGPA of 8.6. 
+- Published research work includes a study on an AI-driven university FAQ chatbot using NLP and neural networks, published in the Artificial Intelligence Application (AIA) journal. This research focused on automating student queries through deep learning, reducing administrative overhead. 
+- Publication in the Multimedia Tools and Applications journal explored converting RGB images into hyperspectral images using CNNs, a technique aimed at making hyperspectral imaging more accessible for fields like medicine and environmental monitoring. 
+- Work experience includes: 
+    =serving as a Junior AI Engineer at Xplorazzi, where responsibilities involved developing and deploying machine learning models for self-checkout kiosks, enhancing customer experience. 
+    =Interned as a Data Science Intern at CRUV, collaborating with food apps to capture shopping cart screenshots, extract information such as food item names, and identify customized menu items using deep learning techniques. 
+    =At Metridash, worked as a Machine Learning Intern, retrieving social media data via APIs and implementing sentiment analysis to determine the emotional tone of collected data. 
+    =Another internship at VLink involved developing real-time movement tracking applications for therapeutic sessions of patients with knee injuries, particularly targeting professionals like dancers, military personnel, and accident victims. 
+-Projects: 
+    project involved voice cloning to generate speech from arbitrary text using deep learning frameworks such as SV2TTS, creating digital voice representations for speech synthesis applications. 
+    Also developed a Freshers’ Query Chatbot to assist students with academic and administrative inquiries using NLP and deep learning techniques like Bi-LSTM. 
+-Held multiple leadership roles, including an Associate position in the Media Team of Taarangana Society, where responsibilities included coordinating video production and event promotions. 
+-Served as a developer for the Celestial Biscuit Society 2022, building a chatbot to answer freshers' queries. Acted as a mentor in the Protégé Society, guiding students in data structures and AI fundamentals. 
+-Volunteered in the Saksham Right to Write 2022 competition, assisting students with visual impairment in a workshop on assistive technology solutions. 
+-Technical skills include expertise in machine learning, regression, clustering, deep learning, and NLP with tools like OpenCV, Keras, TensorFlow, SpaCy, and GANs. 
+-Experience in data handling using ELK Stack, Kibana, Neo4j, and PowerBI. Proficient in Python, R, and C++, with hands-on experience in GitHub for version control and AWS services along with Docker. 
+-Familiarity with web development using Flask, HTML, CSS, and Bootstrap 4.
