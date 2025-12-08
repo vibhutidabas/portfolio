@@ -8,7 +8,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Configure Gemini API
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyAoQl6_gewvMrByE5frKTHi0kbGNZIH8Zg')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
 conversation_history = {}  # session_id -> list of (question, answer)
 
