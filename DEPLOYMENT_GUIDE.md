@@ -38,7 +38,7 @@ This guide will help you deploy your Flask application to make it publicly acces
 5. **Add Environment Variables**:
    - Click "Advanced" → "Add Environment Variable"
    - Key: `GEMINI_API_KEY`
-   - Value: `AIzaSyAoQl6_gewvMrByE5frKTHi0kbGNZIH8Zg` (your API key)
+   - Value: `` (your API key)
 
 6. Click "Create Web Service"
 7. Wait 5-10 minutes for deployment
