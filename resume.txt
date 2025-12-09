@@ -1,19 +1,65 @@
-- The name is Vibhuti Dabas. Email is vibhuti171@gmail.com
-- Pursued MSc in Advanced Computer Science with a specialization in Artificial Intelligence from the University of Manchester, United Kingdom. 
-- Completed a Bachelor of Technology in Information Technology from Indira Gandhi Delhi Technical University for Women with a CGPA of 8.6. 
-- Published research work includes a study on an AI-driven university FAQ chatbot using NLP and neural networks, published in the Artificial Intelligence Application (AIA) journal. This research focused on automating student queries through deep learning, reducing administrative overhead. 
-- Publication in the Multimedia Tools and Applications journal explored converting RGB images into hyperspectral images using CNNs, a technique aimed at making hyperspectral imaging more accessible for fields like medicine and environmental monitoring. 
-- Work experience includes: 
-    =serving as a Junior AI Engineer at Xplorazzi, where responsibilities involved developing and deploying machine learning models for self-checkout kiosks, enhancing customer experience. 
-    =Interned as a Data Science Intern at CRUV, collaborating with food apps to capture shopping cart screenshots, extract information such as food item names, and identify customized menu items using deep learning techniques. 
-    =At Metridash, worked as a Machine Learning Intern, retrieving social media data via APIs and implementing sentiment analysis to determine the emotional tone of collected data. 
-    =Another internship at VLink involved developing real-time movement tracking applications for therapeutic sessions of patients with knee injuries, particularly targeting professionals like dancers, military personnel, and accident victims. 
--Projects: 
-    project involved voice cloning to generate speech from arbitrary text using deep learning frameworks such as SV2TTS, creating digital voice representations for speech synthesis applications. 
-    Also developed a Freshers’ Query Chatbot to assist students with academic and administrative inquiries using NLP and deep learning techniques like Bi-LSTM. 
--Held multiple leadership roles, including an Associate position in the Media Team of Taarangana Society, where responsibilities included coordinating video production and event promotions. 
--Served as a developer for the Celestial Biscuit Society 2022, building a chatbot to answer freshers' queries. Acted as a mentor in the Protégé Society, guiding students in data structures and AI fundamentals. 
--Volunteered in the Saksham Right to Write 2022 competition, assisting students with visual impairment in a workshop on assistive technology solutions. 
--Technical skills include expertise in machine learning, regression, clustering, deep learning, and NLP with tools like OpenCV, Keras, TensorFlow, SpaCy, and GANs. 
--Experience in data handling using ELK Stack, Kibana, Neo4j, and PowerBI. Proficient in Python, R, and C++, with hands-on experience in GitHub for version control and AWS services along with Docker. 
--Familiarity with web development using Flask, HTML, CSS, and Bootstrap 4.
+Vibhuti Dabas completed an MSc in Artificial Intelligence at the University of Manchester with a merit classification. Coursework and research included deep learning, computer vision, NLP, agent systems, data engineering, and practical AI applications.
+Also holds a Bachelor of Technology in Information Technology from Indira Gandhi Delhi Technical University for Women with a CGPA of 8.6.
+
+PUBLICATION: Construction of Hyperspectral Images from RGB Images via CNN
+This research addressed the challenge of generating hyperspectral images from standard RGB using deep convolutional neural networks. Hyperspectral imaging captures information across many wavelengths, useful in medicine and environmental monitoring. The proposed 3D CNN model converts RGB inputs into hyperspectral bands, providing a more accessible and cost-efficient alternative to expensive hyperspectral cameras. Core concepts involved: CNNs, spectral reconstruction, image-to-image translation, dataset preprocessing, and model evaluation.
+
+PUBLICATION: University Auto Reply FAQ Chatbot Using NLP and Neural Networks
+This study introduced a chatbot system designed for universities using NLP and deep learning. It compared two architectures: a biLSTM-based model and a simple feed-forward neural network. The model performs question classification and generates appropriate responses. Topics include sequence modeling, embedding layers, intent classification, training dataset preparation, and evaluation metrics for chatbot performance.
+
+PUBLICATION: Assessing Dataset Fairness in Image Privacy Detection
+This publication explored fairness considerations in an image privacy detection system. It studied dataset imbalance, feature distribution, bias mitigation, and model selection. A pretrained ResNet101 model and a custom CNN architecture were evaluated for predicting privacy-sensitive regions in images. Key themes include fairness metrics, bias detection, supervised learning, model generalization, and privacy-aware imaging.
+
+EXPERIENCE: Jr. AI Engineer at Xplorazzi Adventures Pvt. Ltd.
+Worked on machine learning models for self-checkout kiosks. Responsibilities included object detection using YOLO, MMDetection, dataset preprocessing, pipeline development, and on-edge inference optimization. Tasks involved real-time classification of items, sensor integration, and automated retail checkout workflows. Technologies included PyTorch, computer vision models, REST APIs, server deployment, and remote monitoring of models.
+
+EXPERIENCE: Data Science Intern at CRUV Dimension Pvt. Ltd.
+Scraped menus using screenshots, extracted information like food item names, customizations, and prices. Used NLP techniques and one-shot learning models such as HuggingFace transformers to map user-uploaded images to restaurant database items. Concepts included image-to-text mapping, semantic similarity, vector representations, and dataset alignment.
+
+EXPERIENCE: Machine Learning Intern at Metirads, Tirunelveli
+Performed sentiment analysis on social media posts using Graph APIs for data collection. Implemented NLP pipelines to classify posts as positive, negative, or neutral. Techniques included tokenization, embeddings, sentiment scoring, preprocessing, and evaluation.
+
+EXPERIENCE: Machine Learning Intern at VLink Inc.
+Developed live skeletal motion tracking for knee-injury patients using Mediapipe. Implemented posture estimation, angle measurement, time-series motion analysis, and representation of human movement for therapeutic sessions. Concepts involved pose estimation, keypoint tracking, temporal analysis, and data visualization.
+
+PROJECT: QandA System by Text Extraction from PDF
+Built a 3D avatar interactive system supporting text-to-speech, speech-to-text, LLM-based question answering, and real-time lip-sync animation. Implemented using Flask, Three.js, Gemini API, and GLB rendering. Technologies included audio-reactive facial animation, interactive camera control, TTS, STT, and LLM-based reasoning. Technical concepts: event-driven systems, web-based rendering, real-time animation, and multimodal AI integration.
+
+PROJECT: Voice Cloning System to Generate Speech from Text
+Used SV2TTS, which is a three-stage deep learning pipeline for speaker embedding, spectrogram generation, and waveform synthesis. Concepts include speaker encoders, mel-spectrogram generation, Tacotron-like models, neural vocoders (WaveRNN), few-shot voice cloning, and text-to-speech pipelines.
+
+PROJECT: Query Analyzer CLI Tool
+Built a command-line LLM-based tool that takes free-text queries, analyzes user intent, and generates structured JSON output with fields like category, topic, user intent, and filters. Includes query parsing, embedding-based similarity, schema generation, JSON formatting, few-shot prompting, and natural language summarization.
+
+TECHNICAL SKILLS: Machine Learning & AI
+Techniques include supervised learning, unsupervised learning, CNNs, RNNs, transformers, LLMs, multimodal models, multi-agent systems, and model evaluation. Knowledge of training loops, loss functions, optimizers, regularization, batching, fine-tuning, and transfer learning. Experience in object detection models like YOLO and MMDetection. Familiarity with image preprocessing, augmentation, and feature extraction.
+
+SKILLS: RAG MODELS
+RAG (Retrieval-Augmented Generation) combines LLMs with external knowledge bases. Core concepts:
+Chunking and text preprocessing
+Embedding generation using transformer encoders
+Vector database indexing (FAISS, Pinecone)
+Cosine similarity retrieval
+Prompt construction with retrieved context
+Context windows, relevance ranking, grounding
+Hallucination reduction
+Multi-turn conversational RAG
+Query rewriting and intent expansion
+
+SKILLS: NLP
+Includes tokenization, stemming, embeddings (Word2Vec, GloVe, BERT embeddings), sequence modeling with LSTMs, classification, sentiment analysis, text extraction, named entity recognition, semantic similarity, transformer models, and dataset cleaning.
+
+SKILLS: COMPUTER VISION
+Includes convolutional layers, filters, feature maps, pooling, object detection, segmentation, pose estimation, keypoint extraction, augmentation, image normalization, pretrained models (ResNet, MobileNet, EfficientNet), and evaluation metrics like mAP.
+
+SKILLS: AGENTIC AI & LLM ORCHESTRATION
+Agentic systems involve structured LLM workflows where an AI agent can plan, reason, and execute tasks. Concepts include tool calling, planning loops, LangChain/LangGraph-style nodes and edges, graph-based execution, memory, message passing, state machines, and autonomous multi-agent collaboration.
+
+SKILLS: DATA ENGINEERING & MLOps
+Experience with ETL pipelines, data cleaning, model deployment using AWS SageMaker, MLflow tracking, Docker containers, logging, monitoring, metrics, version control, dev environments, and cloud orchestration using Terraform/Kubernetes.
+
+SKILLS: CLOUD & SOFTWARE ENGINEERING
+Knowledge of Python, JavaScript, SQL, C++, Go, and cloud platforms including AWS, GCP, and Azure. Familiarity with REST APIs, FastAPI, Django, server-side rendering, asynchronous event loops, containerized microservices, and CI/CD.
+
+GENERAL AI CONCEPTS
+Deep learning involves training neural networks with multiple layers to learn complex patterns. CNNs extract spatial features; RNNs model sequences; transformers use attention to handle long-context reasoning. Training involves backpropagation, gradient descent, and hyperparameter tuning. Evaluation uses metrics like accuracy, precision, recall, F1 score.
