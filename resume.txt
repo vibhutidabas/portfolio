@@ -1,5 +1,10 @@
-Vibhuti Dabas completed an MSc in Artificial Intelligence at the University of Manchester with a merit classification. Coursework and research included deep learning, computer vision, NLP, agent systems, data engineering, and practical AI applications.
+NAME: Vibhuti Dabas 
+
+EDUCATION: Completed an MSc in Artificial Intelligence at the University of Manchester with a merit classification. Coursework and research included deep learning, computer vision, NLP, agent systems, data engineering, and practical AI applications.
 Also holds a Bachelor of Technology in Information Technology from Indira Gandhi Delhi Technical University for Women with a CGPA of 8.6.
+
+MASTER’S THESIS: Augmented Reality Peak Identification System
+My MSc thesis focused on building an AR mobile application that helps hikers identify surrounding hills and landmarks using real-time camera input, GPS, and device sensors. The system retrieves elevation data from OpenStreetMap, computes skylines, detects nearby peaks, and overlays labels onto the camera view with distance-based scaling for clarity. To improve accuracy, it uses periodic recalibration, a buffer angle for stability, and an option to filter peaks based on visibility. Field testing at Mam Tor showed that the system works reliably both online and offline, demonstrating a practical combination of sensor fusion, geospatial computing, and AR visualization.
 
 PUBLICATION: Construction of Hyperspectral Images from RGB Images via CNN
 This research addressed the challenge of generating hyperspectral images from standard RGB using deep convolutional neural networks. Hyperspectral imaging captures information across many wavelengths, useful in medicine and environmental monitoring. The proposed 3D CNN model converts RGB inputs into hyperspectral bands, providing a more accessible and cost-efficient alternative to expensive hyperspectral cameras. Core concepts involved: CNNs, spectral reconstruction, image-to-image translation, dataset preprocessing, and model evaluation.
