@@ -464,7 +464,7 @@ HTML_TEMPLATE = '''
             
             // Try to load custom model
             try {
-                await loadCustomModel('/model/avatar.glb');
+                await loadCustomModel('https://500d9852edfa327c10090278dc359d2f.r2.cloudflarestorage.com/portfolio-model/avatar.glb');
                 console.log('✓ Custom model loaded');
             } catch (error) {
                 console.log('Using default avatar');
@@ -1132,7 +1132,7 @@ HTML_TEMPLATE = '''
                 const transcript = event.results[0][0].transcript;
                 console.log('Recognized:', transcript);
                 
-                document.getElementById('transcriptText').textContent = '🎤 You: "' + transcript + '"';
+                document.getElementById('transcriptText').textContent = 'You: "' + transcript + '"';
                 document.getElementById('transcript').style.display = 'block';
                 
                 processQuestion(transcript);
@@ -1183,7 +1183,7 @@ HTML_TEMPLATE = '''
                 if (data.error) {
                     document.getElementById('status').textContent = 'Error: ' + data.error;
                 } else {
-                    document.getElementById('answerText').textContent = '🤖 Avatar: ' + data.answer;
+                    document.getElementById('answerText').textContent = 'Me: ' + data.answer;
                     
                     if (data.audio) {
                         // Set audio source FIRST (required by wawa-lipsync)
