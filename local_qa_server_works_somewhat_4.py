@@ -464,8 +464,8 @@ HTML_TEMPLATE = '''
             
             // Try to load custom model
             try {
-                await loadCustomModel('https://500d9852edfa327c10090278dc359d2f.r2.cloudflarestorage.com/portfolio-model/avatar.glb');
-                # await loadCustomModel('/model/avatar.glb');
+                # await loadCustomModel('https://500d9852edfa327c10090278dc359d2f.r2.cloudflarestorage.com/portfolio-model/avatar.glb');
+                await loadCustomModel('/model/avatar.glb');
                 console.log('✓ Custom model loaded');
             } catch (error) {
                 console.log('Using default avatar');
