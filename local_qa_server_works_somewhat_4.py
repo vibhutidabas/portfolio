@@ -464,7 +464,7 @@ HTML_TEMPLATE = '''
             
             // Try to load custom model
             try {
-                await loadCustomModel('https://pub-5ffa6c75fc7c402984f49e647c185d25.r2.dev/portfolio-model/avatar.glb');
+                await loadCustomModel('/model/avatar.glb');
                 console.log('✓ Custom model loaded');
             } catch (error) {
                 console.log('Using default avatar');
