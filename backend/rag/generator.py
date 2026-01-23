@@ -1,5 +1,5 @@
 """Gemini response generation logic"""
-import google.generativeai as genai
+import google.genai as genai
 from typing import List, Tuple
 from config import GEMINI_API_KEY, GEMINI_MODEL
 
@@ -57,3 +57,4 @@ Answer:"""
     response = model.generate_content(prompt)
     
     return response.text
+
