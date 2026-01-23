@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Avatar Q&A with Lip Sync</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div class="suggestions-right">
+        <p>"Tell me about your MSc in AI."</p>
+        <p> </p>
+        <p>"What AI tools do you use most?"</p>
+        <p> </p>
+        <p>"What are your publications?"</p>
+    </div>
+
+    <div class="suggestions-left">
+        <p>Ask me about my experience</p>
+        <p> </p>
+        <p>Ask me about my projects</p>
+        <p> </p>
+        <p>Ask me about my research</p>   
+    </div>
+    
+    <div class="debug-panel" id="debugPanel">
+        <h4>Debug Info</h4>
+        <div>Lipsync: <span id="lipsyncStatus">Not initialized</span></div>
+        <div>Viseme: <span id="currentViseme">-</span></div>
+        <div>Morph meshes: <span id="morphCount">0</span></div>
+        <div>Speaking: <span id="speakingStatus">No</span></div>
+    </div>
+    
+    <div class="transcript" id="transcript">
+        <div class="transcript-text" id="transcriptText"></div>
+        <div class="answer-text" id="answerText"></div>
+    </div>
+    <!-- <button id="startBtn">Start Assistant</button> -->
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p>Processing...</p>
+    </div>
+    
+    <div class="ui-overlay">
+        <button class="mic-button" id="micButton" onclick="toggleRecording()">O</button>
+        <div class="status" id="status">Click to speak</div>
+    </div>
+    
+    <audio id="audioPlayer"></audio>
+
+    <!-- Load Three.js and GLTFLoader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    
+    <!-- Load wlipsync via UMD -->
+    <script type="module">
+    import "https://cdn.jsdelivr.net/npm/wlipsync/dist/wlipsync-single.js";
+    </script>
+    <!-- Load our JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
