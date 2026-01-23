@@ -2,7 +2,7 @@
 
 An interactive 3D avatar portfolio website that uses AI to answer questions about your resume with real-time lip synchronization.
 
-## 🎯 Features
+## Features
 
 - **3D Avatar**: Interactive 3D face model with Oculus Visemes support
 - **Voice Input**: Real-time speech recognition using Web Speech API
@@ -50,7 +50,7 @@ copy .env.example .env
 # then edit .env and set GEMINI_API_KEY=your_key_here
 ```
 
-Alternatively set it for the current PowerShell session:
+Alternatively, set it for the current PowerShell session:
 
 ```powershell
 $env:GEMINI_API_KEY = 'your_gemini_key_here'
@@ -104,3 +104,4 @@ If you want, I can also:
 
 ---
 Updated README to be GitHub-friendly and include run/commit commands.
+
