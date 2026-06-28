@@ -1,5 +1,5 @@
 """Gemini response generation logic"""
-import google.genai as genai
+import google.generativeai as genai
 from typing import List, Tuple
 from config import GEMINI_API_KEY, GEMINI_MODEL
 
