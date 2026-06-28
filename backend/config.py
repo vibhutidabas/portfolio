@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Gemini API Configuration - expect user to set this in environment
 # e.g. export GEMINI_API_KEY="<your-key>"
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash')
+GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
 
 # Flask Configuration
 FLASK_ENV = os.getenv('FLASK_ENV', 'development')
